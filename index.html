@@ -2,35 +2,47 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Shilpa Jumde - Profile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shilpa Jumde - Portfolio</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <div class="container">
+    <header class="header">
       <h1>Shilpa Jumde</h1>
-      <p>
-        Hello! My name is <strong>Shilpa Jumde</strong>. I have a Bachelor's
-        degree in Electronics and a Master's degree in VLSI.
-      </p>
+    </header>
 
-      <h2>Education & Skills</h2>
-      <p>
-        🎓 Degree in Electronics<br />
-        🎓 Masters in VLSI<br />
-        🌍 Danish Language – PD2 Level<br />
-        🔐 Cyber Security Course – SC-900<br />
-        💻 Learning Full Stack Development from Hack Your Future (HTML, CSS,
-        JavaScript)
-      </p>
+    <main class="container">
+      <section id="intro">
+        <p>
+          Hello! My name is <strong>Shilpa Jumde</strong>. I have a Bachelor's
+          degree in Electronics and a Master's degree in VLSI.
+        </p>
+      </section>
 
-      <button id="toggleBtn">Click to Know More</button>
+      <section id="skills">
+        <h2>Education & Skills</h2>
+        <ul>
+          <li>🎓 Degree in Electronics</li>
+          <li>🎓 Masters in VLSI</li>
+          <li>🌍 Danish Language – PD2 Level</li>
+          <li>🔐 Cyber Security Course – SC-900</li>
+          <li>
+            💻 Learning Full Stack Development from Hack Your Future (HTML, CSS,
+            JavaScript)
+          </li>
+        </ul>
+      </section>
 
-      <p id="extraInfo">
-        I am passionate about electronics, VLSI design, cybersecurity, and
-        learning new languages. I continuously work on improving my technical
-        and communication skills.
-      </p>
-    </div>
+      <section id="extra">
+        <button id="toggleBtn" aria-expanded="false">Click to Know More</button>
+        <p id="extraInfo" class="hidden">
+          I am passionate about electronics, VLSI design, cybersecurity, and
+          learning new languages. I continuously work on improving my technical
+          and communication skills.
+        </p>
+      </section>
+    </main>
 
     <script src="script.js"></script>
   </body>

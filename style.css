@@ -4,6 +4,10 @@ body {
   margin: 0;
   padding: 0;
 }
+.header {
+  text-align: center;
+  padding: 20px;
+}
 
 .container {
   max-width: 700px;
@@ -39,14 +43,13 @@ button {
   color: white;
   font-size: 16px;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 button:hover {
   background-color: #2980b9;
 }
 
-#extraInfo {
+.hidden {
   display: none;
-  margin-top: 15px;
-  color: #333;
 }
