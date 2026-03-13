@@ -35,11 +35,12 @@ Learning
 3. I learned how to structure a project more professionally using semantic HTML.
 
 Part B
-
 Ethical Issue 1: Over-reliance on AI
+
 Description:Depending too much on AI without understanding the code.
 Mitigation:I will always test the code and make sure I understand every line before submitting.
 
 Ethical Issue 2: Data Privacy
+
 Description:Sharing sensitive data with AI tools.
 Mitigation:I will never share personal passwords, API keys, or private information.
